@@ -1067,15 +1067,14 @@ a {
   }
 }
 .footer {
-  background: #141414;
+  background: #1d1d1d;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 48px 38px;
-  gap: 28px;
+  padding: 36px 120px;
 }
 .footer-wrapper {
   display: flex;
@@ -1083,17 +1082,17 @@ a {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  gap: 20px;
+  gap: 52px;
 }
 .footer-text {
   font-family: Alexandria;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  text-decoration: none;
+
   color: #f8f8f8;
 
   text-align: center;
@@ -1101,10 +1100,10 @@ a {
 
 .footer-copyright {
   font-family: Alexandria;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 16px;
-  text-align: center;
+  line-height: 24px;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
@@ -1157,22 +1156,16 @@ a {
   padding: 100px 20px 40px;
   background: #fffefb;
 }
-.policy-terms-title {
-  font-family: Inter;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: left;
-  color: #000000;
-}
+
 .policy-terms-texts {
   font-family: Alexandria;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: justified;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   color: #303030;
 }
 .policy-terms-text {
@@ -1183,15 +1176,15 @@ a {
   text-align: justified;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
+  padding-top: 28px;
   color: #303030;
 }
 .policy-terms-text-top {
   font-family: Alexandria;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 28px;
-  text-align: justified;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
@@ -1200,14 +1193,14 @@ a {
 }
 .policy-terms-text-one {
   font-family: Alexandria;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: justified;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   color: #303030;
-  padding-left: 20px;
 }
 
 .terms-list {
@@ -1215,10 +1208,10 @@ a {
   color: #303030;
 
   font-family: Alexandria;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: justified;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
@@ -1229,15 +1222,16 @@ a {
   color: #303030;
   padding-left: 20px;
   font-family: Alexandria;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: justified;
+  text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
 .email-link {
   color: inherit;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1200px) {
